@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw16waupphbwq"]
+
+[ext_resource type="Script" path="res://examples/03_background_change/BackgroundChange.gd" id="1_sk3n7"]
+[ext_resource type="PackedScene" uid="uid://8uhqonmfadm2" path="res://examples/VisualNovelScene_hud.tscn" id="2_a487h"]
+
+[node name="BackgroundChange" type="CanvasLayer"]
+script = ExtResource("1_sk3n7")
+
+[node name="Background" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.509804, 0.360784, 1, 1)
+
+[node name="Text" parent="." instance=ExtResource("2_a487h")]
+
+[connection signal="end_dialogue_signal" from="." to="." method="_on_end_dialogue_signal"]

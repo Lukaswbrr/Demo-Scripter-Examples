@@ -1,0 +1,29 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://7jq1q2ulj22h"]
+
+[ext_resource type="FontFile" uid="uid://dasqivxs752dq" path="res://examples/fonts/default.ttf" id="1_r11jj"]
+
+[sub_resource type="FontVariation" id="FontVariation_rc0fa"]
+base_font = ExtResource("1_r11jj")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bxv3u"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_n73kx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_44hg1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_64rxo"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6vxrw"]
+
+[resource]
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_color = Color(0.713726, 0.713726, 0.713726, 1)
+Button/colors/font_outline_color = Color(0.176471, 0.176471, 0.176471, 1)
+Button/constants/outline_size = 2
+Button/font_sizes/font_size = 18
+Button/fonts/font = SubResource("FontVariation_rc0fa")
+Button/styles/disabled = SubResource("StyleBoxEmpty_bxv3u")
+Button/styles/focus = SubResource("StyleBoxEmpty_n73kx")
+Button/styles/hover = SubResource("StyleBoxEmpty_44hg1")
+Button/styles/normal = SubResource("StyleBoxEmpty_64rxo")
+Button/styles/pressed = SubResource("StyleBoxEmpty_6vxrw")

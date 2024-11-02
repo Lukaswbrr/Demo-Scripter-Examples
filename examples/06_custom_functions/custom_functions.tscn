@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5advb06entyh"]
+
+[ext_resource type="Script" path="res://examples/06_custom_functions/CustomFunctions.gd" id="1_pqxle"]
+[ext_resource type="PackedScene" uid="uid://8uhqonmfadm2" path="res://examples/VisualNovelScene_hud.tscn" id="2_xitrv"]
+
+[sub_resource type="Gradient" id="Gradient_stfq2"]
+offsets = PackedFloat32Array(0, 0.295652, 0.695652, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.166153, 0.14465, 0.354783, 1, 0.253409, 0.237628, 0.556522, 1, 0.370774, 0.365609, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_l5xdo"]
+gradient = SubResource("Gradient_stfq2")
+fill_from = Vector2(0.981595, 0.733129)
+fill_to = Vector2(0.570552, 0.187117)
+
+[node name="CustomFunctions" type="CanvasLayer"]
+script = ExtResource("1_pqxle")
+
+[node name="Background" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_l5xdo")
+
+[node name="Text" parent="." instance=ExtResource("2_xitrv")]
+
+[connection signal="end_dialogue_signal" from="." to="." method="_on_end_dialogue_signal"]
