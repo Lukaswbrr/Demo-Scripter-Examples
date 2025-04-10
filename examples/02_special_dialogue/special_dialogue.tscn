@@ -1,9 +1,9 @@
 [gd_scene load_steps=13 format=3 uid="uid://bve73m0d1malm"]
 
-[ext_resource type="Script" path="res://examples/02_special_dialogue/SpecialDialogue.gd" id="1_ns6ap"]
+[ext_resource type="Script" uid="uid://v4gsjoqalgd3" path="res://examples/02_special_dialogue/SpecialDialogue.gd" id="1_ns6ap"]
 [ext_resource type="FontFile" uid="uid://dasqivxs752dq" path="res://examples/fonts/default.ttf" id="2_wgd6v"]
 [ext_resource type="AudioStream" uid="uid://pnuwl5giqvlq" path="res://examples/musics/track03.ogg" id="3_blctd"]
-[ext_resource type="Script" path="res://scripts/modules/button_handler/ButtonHandler.gd" id="4_8whpa"]
+[ext_resource type="Script" uid="uid://dp45vnptotq5c" path="res://scripts/modules/button_handler/ButtonHandler.gd" id="4_8whpa"]
 [ext_resource type="Texture2D" uid="uid://473r24sic7p0" path="res://assets/writing icon white.png" id="4_nfbn2"]
 [ext_resource type="Theme" uid="uid://7jq1q2ulj22h" path="res://examples/04_buttons/TsukihimeButton.tres" id="5_ua6dx"]
 
@@ -120,10 +120,10 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qxh3s"]
 _data = {
-"RESET": SubResource("6"),
-"fade_in": SubResource("Animation_otoj2"),
-"fade_out": SubResource("3"),
-"intro": SubResource("4")
+&"RESET": SubResource("6"),
+&"fade_in": SubResource("Animation_otoj2"),
+&"fade_out": SubResource("3"),
+&"intro": SubResource("4")
 }
 
 [sub_resource type="FontVariation" id="FontVariation_4yrlo"]

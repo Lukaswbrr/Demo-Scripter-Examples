@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b4frhwxbu3m57"]
 
-[ext_resource type="Script" path="res://examples/05_characters/Characters.gd" id="1_dw6lk"]
+[ext_resource type="Script" uid="uid://cn5wccvstjpby" path="res://examples/05_characters/Characters.gd" id="1_dw6lk"]
 [ext_resource type="PackedScene" uid="uid://8uhqonmfadm2" path="res://examples/VisualNovelScene_hud.tscn" id="2_6kuhv"]
 
 [node name="Characters" type="CanvasLayer"]

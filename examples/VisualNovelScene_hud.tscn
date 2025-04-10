@@ -116,10 +116,10 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qxh3s"]
 _data = {
-"RESET": SubResource("6"),
-"fade_in": SubResource("Animation_otoj2"),
-"fade_out": SubResource("3"),
-"intro": SubResource("4")
+&"RESET": SubResource("6"),
+&"fade_in": SubResource("Animation_otoj2"),
+&"fade_out": SubResource("3"),
+&"intro": SubResource("4")
 }
 
 [sub_resource type="FontVariation" id="FontVariation_4yrlo"]

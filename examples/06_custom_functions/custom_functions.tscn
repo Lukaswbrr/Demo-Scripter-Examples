@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://c5advb06entyh"]
 
-[ext_resource type="Script" path="res://examples/06_custom_functions/CustomFunctions.gd" id="1_pqxle"]
+[ext_resource type="Script" uid="uid://cdy18y7srudli" path="res://examples/06_custom_functions/CustomFunctions.gd" id="1_pqxle"]
 [ext_resource type="PackedScene" uid="uid://8uhqonmfadm2" path="res://examples/VisualNovelScene_hud.tscn" id="2_xitrv"]
 
 [sub_resource type="Gradient" id="Gradient_stfq2"]

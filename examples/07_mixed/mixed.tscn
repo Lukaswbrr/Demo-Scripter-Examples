@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bn3c6jcoir83w"]
 
-[ext_resource type="Script" path="res://examples/07_mixed/Mixed.gd" id="1_fyt3m"]
+[ext_resource type="Script" uid="uid://cu7ma7c06kais" path="res://examples/07_mixed/Mixed.gd" id="1_fyt3m"]
 [ext_resource type="PackedScene" uid="uid://8uhqonmfadm2" path="res://examples/VisualNovelScene_hud.tscn" id="2_mldge"]
 
 [node name="Mixed" type="CanvasLayer"]

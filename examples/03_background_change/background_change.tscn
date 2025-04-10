@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dw16waupphbwq"]
 
-[ext_resource type="Script" path="res://examples/03_background_change/BackgroundChange.gd" id="1_sk3n7"]
+[ext_resource type="Script" uid="uid://c8co412nslw8j" path="res://examples/03_background_change/BackgroundChange.gd" id="1_sk3n7"]
 [ext_resource type="PackedScene" uid="uid://8uhqonmfadm2" path="res://examples/VisualNovelScene_hud.tscn" id="2_a487h"]
 
 [node name="BackgroundChange" type="CanvasLayer"]
