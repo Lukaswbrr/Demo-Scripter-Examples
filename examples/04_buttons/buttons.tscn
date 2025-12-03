@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dkijuwaova34d" path="res://examples/04_buttons/Buttons.gd" id="1_wc8cj"]
 [ext_resource type="FontFile" uid="uid://dasqivxs752dq" path="res://examples/fonts/default.ttf" id="2_c66ri"]
-[ext_resource type="Texture2D" uid="uid://473r24sic7p0" path="res://assets/writing icon white.png" id="4_6sffw"]
+[ext_resource type="Texture2D" uid="uid://473r24sic7p0" path="res://demoscripter/assets/writing icon white.png" id="4_6sffw"]
 [ext_resource type="Theme" uid="uid://7jq1q2ulj22h" path="res://examples/04_buttons/TsukihimeButton.tres" id="4_jmbwl"]
 
 [sub_resource type="Animation" id="6"]

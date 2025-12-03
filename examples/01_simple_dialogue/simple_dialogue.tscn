@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://gah0epv632kv"]
 
-[ext_resource type="Script" uid="uid://c786yslsb285r" path="res://examples/01_simple_dialogue/SimpleDialogue.gd" id="1_ps5uh"]
+[ext_resource type="Script" uid="uid://ddilk1nvnnc8i" path="res://dev/doc_examples/no_args/new_script.gd" id="1_qn3gf"]
 [ext_resource type="PackedScene" uid="uid://8uhqonmfadm2" path="res://examples/VisualNovelScene_hud.tscn" id="2_nlbdx"]
 
 [node name="SimpleDialogue" type="CanvasLayer"]
-script = ExtResource("1_ps5uh")
+script = ExtResource("1_qn3gf")
 
 [node name="Background" type="Control" parent="."]
 layout_mode = 3

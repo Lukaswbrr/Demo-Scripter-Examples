@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://8uhqonmfadm2"]
 
 [ext_resource type="FontFile" uid="uid://dasqivxs752dq" path="res://examples/fonts/default.ttf" id="1_ghrl2"]
-[ext_resource type="Texture2D" uid="uid://473r24sic7p0" path="res://assets/writing icon white.png" id="2_ce7t1"]
+[ext_resource type="Texture2D" uid="uid://473r24sic7p0" path="res://demoscripter/assets/writing icon white.png" id="2_ce7t1"]
 
 [sub_resource type="Animation" id="6"]
 length = 0.001

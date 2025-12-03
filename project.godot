@@ -14,13 +14,22 @@ config/name="Demo Scripter Examples"
 config/description="A visual novel framework style in style of NScripter
 
 Examples"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
 window/size/viewport_width=720
 window/size/viewport_height=540
+
+[file_customization]
+
+folder_colors={
+"res://demoscripter/": "blue",
+"res://demoscripter/assets/": "red",
+"res://demoscripter/docs/": "green",
+"res://examples/": "yellow"
+}
 
 [input]
 
