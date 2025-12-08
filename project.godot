@@ -25,9 +25,7 @@ window/size/viewport_height=540
 [file_customization]
 
 folder_colors={
-"res://demoscripter/": "blue",
-"res://demoscripter/assets/": "red",
-"res://demoscripter/docs/": "green",
+"res://Demo-Scripter/": "blue",
 "res://examples/": "yellow"
 }
 
